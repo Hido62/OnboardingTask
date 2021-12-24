@@ -5,7 +5,7 @@ using NUnit.Framework;
 using System;
 using TechTalk.SpecFlow;
 using static MarsQA_1.Helpers.CommonMethods;
-using RelevantCodes.ExtentReport;
+//using RelevantCodes.ExtentReport;
 
 namespace MarsQA_1.Utils
 {
@@ -63,7 +63,7 @@ namespace MarsQA_1.Utils
             // end test. (Reports)
             Extent.EndTest(test);
 
-            //calling Flush writes everything to the log file (Reports)
+            //Calling Flush writes everything to the log file (Reports)
             Extent.Flush();
 
 
